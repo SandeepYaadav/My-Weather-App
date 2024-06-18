@@ -1,18 +1,11 @@
 import React from "react";
 
 const Header = () => {
-
   return (
     <>
-      <div className="shadow-md w-full">
-        <div className="md:px-10 py-4 px-7 ">
-          <div className="flex curson-pointer items-center">
-            <span>My Weather APP</span>
-          </div>
-          <div className="flex justify-end">
-            <span> Welcome Sandeep!!</span>
-          </div>
-        </div>
+      <div className="flex justify-between ">
+          <div className="p-2">My Weather APP</div>
+          <div className="p-2">Welcome Sandeep!!</div>
       </div>
     </>
   );
